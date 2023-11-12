@@ -1,0 +1,20 @@
+GET http://192.168.1.80:3000/appliances
+
+###
+
+GET http://localhost:3000/appliances/12
+
+### 
+
+# POST http://localhost:3000/appliances
+# Content-Type: application/json
+
+# {
+#     "applianceName": "Television",
+#     "powerRatingWatt": 80,
+#     "dailyUsage": [
+#         { "date": "2023-01-01", "usageKWh": 2.2 },
+#         { "date": "2023-01-02", "usageKWh": 2.0 },
+#         { "date": "2023-01-03", "usageKWh": 2.3 }
+#     ]
+# }
